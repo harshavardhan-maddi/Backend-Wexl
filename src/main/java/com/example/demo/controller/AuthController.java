@@ -42,7 +42,7 @@ public class AuthController {
         return new LoginResponse(
                 "error",
                 null,
-                "Invalid username or password"
+                "Invalid username or password!"
         );
     }
 }
